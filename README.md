@@ -17,7 +17,7 @@ Welcome to our challenge! In this challenge we will test your abilities to creat
 
 * In the home page you need to display top 20 TV shows when the search input is empty. You already have the `shows state` that related to the those shows. Use [this](https://www.episodate.com/api/most-popular) API.
 
-* For every show you need to use the `Show` component. In this component, inside the `Link`, You will have to create a `div` with the class `tv-show`. Inside this `div` you need to create a `img` of the TV show thumbnail with the class `show-img` and beneath, a `h2` with the class `show-footer` header with the name of the TV show.
+* For every show you need to use the `Show` component. In this component, inside the `Link`, You will have to create a `div` with the class `tv-show`. Inside this `div` you need to create a `img` of the TV show thumbnail with the class `show-img` and beneath, a `h2` with the class `show-footer` with the name of the TV show.
 
 * After you finished the `Show` component, you will need to implement a `form` element in the `Home` component. The `form` will include `input` element with the id `search-bar` and `button` element with the id `submit-btn`.
 
@@ -29,7 +29,7 @@ Welcome to our challenge! In this challenge we will test your abilities to creat
 to get the details of the show.
 
 * Beneath the `Link` that we provided to you create a `div` with the class `like-div`, in this `div`
-you will need to have an `img` with the class  `interaction-img`. Show `likedImg` with `alt='liked'` when its liked. otherwise, show `notLikedImg` with `alt='not liked'`. You can see the pictures in the top of the code.
+you will need to have an `img` with the class  `interaction-img`. Show `likedImg` with `alt='liked'` when its liked. otherwise, show `notLikedImg` with `alt='not liked'`. You can see the pictures in the top of the code the onClick function needs to be implemented in the div not in the `img`.
 
 * Save the status of the image (liked or not liked) in local storage, so when you refresh you can see the same image.
 
